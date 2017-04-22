@@ -10,6 +10,7 @@ namespace AzureBootcampBH.Controllers
     {
         public ActionResult Index()
         {
+            throw new Exception("Erro forçado");
             return View();
         }
 
